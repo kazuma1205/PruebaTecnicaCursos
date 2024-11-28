@@ -1,7 +1,29 @@
 ﻿@page "/"
+@using PruebaTecnicaCursos.Client.Services
+@using PruebaTecnicaCursosModels.Shared.Models
+@inject Class ServicesApi
 
-<PageTitle>Home</PageTitle>
+<h3>Cursos</h3>
 
-<h1>Hello, world!</h1>
+@if (cursos == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var curso in cursos)
+        {
+            <li>@curso.Nombre</li>
+        }
+    </ul>
+}
 
-Welcome to your new app.
+@code {
+    private List<Usuarios> cursos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        cursos = await ServicesApi.GetCursos();
+    }
+}

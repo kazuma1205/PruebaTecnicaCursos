@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaCursos", "Prue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaCursos.Client", "PruebaTecnicaCursos\PruebaTecnicaCursos.Client\PruebaTecnicaCursos.Client.csproj", "{CF6C2F65-4992-401A-AE76-3EC3CD3D8CAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaCursosModels.Shared", "PruebaTecnicaCursosModels.Shared\PruebaTecnicaCursosModels.Shared.csproj", "{9F8D0A4E-58D4-4735-A430-434BE3FC8308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF6C2F65-4992-401A-AE76-3EC3CD3D8CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF6C2F65-4992-401A-AE76-3EC3CD3D8CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF6C2F65-4992-401A-AE76-3EC3CD3D8CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8D0A4E-58D4-4735-A430-434BE3FC8308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8D0A4E-58D4-4735-A430-434BE3FC8308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8D0A4E-58D4-4735-A430-434BE3FC8308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8D0A4E-58D4-4735-A430-434BE3FC8308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
